@@ -1,16 +1,20 @@
 // Datos de ejemplo
 const teamMembers = [
     {
-        name: "Abel Cuevas",
-        image: "images/abel.png"
-    },
-    {
         name: "Jorge Vento",
         image: "images/jorge.png"
     },
     {
         name: "Paloma Carrasco",
         image: "images/paloma.png"
+    },
+    {
+        name: "Ángel Tena",
+        image: "images/angel.png"
+    },
+    {
+        name: "Abel Cuevas",
+        image: "images/abel.png"
     }
 ];
 
