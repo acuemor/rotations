@@ -50,7 +50,7 @@ function calculateRotations(startDate, today, teamMembers) {
 
 function rotateResponsibilities() {
     const today = new Date();
-    const startDate = new Date("2024-09-16"); // Fecha de inicio de la primera rotación
+    const startDate = new Date("2025-06-30"); // Fecha de inicio de la primera rotación
     const rotations = calculateRotations(startDate, today, teamMembers);
 
     const currentResponsible = rotations[0];
