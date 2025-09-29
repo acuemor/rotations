@@ -12,7 +12,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    width: 350px;
+    width: 768px;
     text-align: center;
     overflow: hidden;
 }
@@ -60,33 +60,39 @@ img {
 #future-assignments ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* dos columnas */
+    gap: 12px; /* espacio entre columnas y filas */
 }
 
 #future-assignments li {
     display: flex;
     align-items: center;
     background-color: #f0f0f0;
-    margin: 5px 0;
     padding: 10px;
     border-radius: 6px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #future-assignments li img {
-    width: 50px;
-    height: 50px;
+    width: 40px; /* un poco más pequeño para futuras asignaciones */
+    height: 40px;
     border-radius: 50%;
     margin-right: 10px;
     border: 2px solid #f79;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 }
 
 #future-assignments li strong {
     color: #333;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    display: block;
 }
 
 #future-assignments li .period {
-    font-size: 14px;
+    font-size: 13px;
     color: #555;
 }
