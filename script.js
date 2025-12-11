@@ -25,10 +25,6 @@ const teamMembers = [
         image: "images/claudia.png"
     },
     {
-        name: "Ismael Banqueri",
-        image: "images/ismael.png"
-    },
-    {
         name: "Jorge Vento",
         image: "images/jorge.png"
     },
