@@ -1,6 +1,6 @@
 # Título del Proyecto
 
-Herramienta para la rotación de responsables dentro de un equipo Scrum.
+Herramienta para la rotación de responsables dentro de un equipo Scrum. Se asigna un nuevo responsable cada lunes.
 
 ## Despliegue
 
