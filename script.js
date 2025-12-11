@@ -1,6 +1,10 @@
 // Datos de ejemplo
 const teamMembers = [
     {
+        name: "Julián Grande",
+        image: "images/julian.png"
+    }, 
+    {
         name: "Abel Cuevas",
         image: "images/abel.png"
     },
@@ -31,10 +35,6 @@ const teamMembers = [
     {
         name: "Giancarlo Suana",
         image: "images/pacman.png"
-    },
-    {
-        name: "Julián Grande",
-        image: "images/julian.png"
     }
 ];
 
@@ -70,7 +70,7 @@ function calculateRotations(startDate, today, teamMembers) {
 
 function rotateResponsibilities() {
     const today = new Date();
-    const startDate = new Date("2025-10-20"); // Fecha de inicio de la primera rotación años/mes/día
+    const startDate = new Date("2025-12-08"); // Fecha de inicio de la primera rotación años/mes/día
     const rotations = calculateRotations(startDate, today, teamMembers);
 
     const currentResponsible = rotations[0];
