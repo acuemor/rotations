@@ -1,14 +1,6 @@
 // Datos de ejemplo
 const teamMembers = [
     {
-        name: "Giancarlo Suana",
-        image: "images/pacman.png"
-    },
-    {
-        name: "Lorena Costa",
-        image: "images/lorena.png"
-    },
-    {
         name: "Jorge Vento",
         image: "images/jorge.png"
     },
@@ -16,6 +8,22 @@ const teamMembers = [
         name: "Abel Cuevas",
         image: "images/abel.png"
     },
+    {
+        name: "Fabián",
+        image: "images/fabian.png"
+    },
+    {
+        name: "Misael",
+        image: "images/misael.png"
+    },
+    {
+        name: "Giancarlo Suana",
+        image: "images/pacman.png"
+    },
+    {
+        name: "Lorena Costa",
+        image: "images/lorena.png"
+    }
 ];
 
 function formatDate(date) {
@@ -67,7 +75,7 @@ function rotateResponsibilities() {
 
     futureResponsibilities.forEach(rotation => {
         const listItem = document.createElement("li");
-        listItem.innerHTML = `<img src="${rotation.image}" alt="Imagen de ${rotation.name}"><div><strong>${rotation.name}</strong><br><span class="period">${formatDate(rotation.startDate)}</span></div>`;
+        listItem.innerHTML = `<img src="${rotation.image}" alt="Imagen de ${rotation.name}"><div><strong>${rotation.name}</strong><span class="period">${formatDate(rotation.startDate)}</span></div>`;
         futureList.appendChild(listItem);
     });
 }
